@@ -4,12 +4,11 @@
 
 
 ## **Install**
-
-* Clone this repository to your workspace.
-  ``` 
-  $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
-  $ cd ros2_mypkg   
-  ```
+  Clone this repository to your workspace.
+   ``` 
+   $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
+   $ cd ros2_mypkg   
+   ```
 
  
   
