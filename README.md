@@ -29,11 +29,14 @@ $ mkdir -p ~/ros2_ws/src
 ### **Talker**
 * **Function**
   
-  Talker counts up numbers and sends them to the listener.
+  Talker counts up the numbers and sends them to the listener with the topic "countup".
 
 *  **Run Script**
+
+   Type the following command in a terminal.
+
      ``` 
-        $ ros2 run mypkg talker
+    $ ros2 run mypkg talker
       ```
 * **Output**
    ``` 
@@ -42,12 +45,11 @@ $ mkdir -p ~/ros2_ws/src
 ### **Listener**
 * **Function**
     
-    Listener receives numbers from the talker and displays them.
-
-
-
+     The listener receives the data sent by the talker with the topic "countup" and displays it on the terminal.
 
 *  **Run Script**
+
+    Type the following command in a new terminal.
      ``` 
         $ ros2 run mypkg listener
       ```
