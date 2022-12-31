@@ -24,8 +24,7 @@ $ cd ~/ros2_ws/src
   ```
   
 
-## **Commands**
-
+## **Nodes**
 
 ### **Talker**
 * **Function**
