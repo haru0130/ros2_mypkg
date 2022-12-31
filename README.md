@@ -5,15 +5,12 @@
 
 ## **Install**
 
- 1. Clone this repository into the src directory.
+* Clone this repository to your workspace.
   ``` 
   $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
   $ cd ros2_mypkg   
   ```
- 2. Build the package.
-  ``` 
-  $ colcon build
-  ``` 
+
  
   
 
