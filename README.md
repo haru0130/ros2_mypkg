@@ -1,4 +1,4 @@
-# **Repository for Robot System Engineering 2022**
+# **This is a repository for university class assignments.**
 
 
 
