@@ -1,21 +1,23 @@
-import rclpy                     #ROS2のクライアントのためのライブラリ
-from rclpy.node import Node      #ノードを実装するためのNodeクラス（クラスは第10回で）
+import rclpy                     
+from rclpy.node import Node      
 from std_msgs.msg import Int16 
 
 class Talker():
-    def __init__(self):
+    def __init__(self, node):
         self.pub = node.create_publisher(Int16, "count_up", 10)
         self.n = 0
+        node.create_timer(0.5, self.cb)
 
-rclpy.init()
-node = Node("talker")            #ノード作成（nodeという「オブジェクト」を作成）
-talker = Talker()
-
-def cb():
-    msg = Int16()
-    msg.data = talker.n
-    talker.pub.publish(msg)
-    talker.n += 1
+    def cb(self):
+        msg = Int16()
+        msg.data = self.n
+        self.pub.publish(msg)
+        self.n += 1
+def main():
+    rclpy.init()
+    node = Node("talker")            
+    talker = Talker(node)
+    rclpy.spin(node)            
     
-node.create_timer(0.5, cb)  #タイマー設定
-rclpy.spin(node)            #実行（無限ループ）
+if __name__ == "__main__":
+    main()
