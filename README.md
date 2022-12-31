@@ -58,8 +58,7 @@ $ mkdir -p ~/ros2_ws/src
     [INFO] [listener]: Listen: 126
     [INFO] [listener]: Listen: 127  
     ...
-
-    ```
+     ```
 
 
 
