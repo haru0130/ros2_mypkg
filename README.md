@@ -4,24 +4,17 @@
 
 
 ## **Install**
-1. Create a new directory for your ROS2 workspace and move to it.
- ```
-$ mkdir -p ~/ros2_ws/src
-$ cd ~/ros2_ws/src
- ```
- 2. Clone this repository into the src directory.
+
+ 1. Clone this repository into the src directory.
   ``` 
   $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
   $ cd ros2_mypkg   
   ```
- 3. Build the package.
+ 2. Build the package.
   ``` 
   $ colcon build
   ``` 
- 4. Source the setup file.
-  ```
-  $ source install/setup.bash
-  ```
+ 
   
 
 ## **Nodes**
