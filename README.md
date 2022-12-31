@@ -40,7 +40,7 @@
 
     Type the following command in a new terminal.
      ``` 
-        $ ros2 run mypkg listener
+    $ ros2 run mypkg listener
       ```
 * **Output**
     ``` 
