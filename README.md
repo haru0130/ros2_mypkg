@@ -7,6 +7,7 @@
 1. Create a new directory for your ROS2 workspace and move to it.
  ```
 $ mkdir -p ~/ros2_ws/src
+$ cd ~/ros2_ws/src
  ```
  2. Clone this repository into the src directory.
   ``` 
