@@ -56,10 +56,11 @@ $ cd ~/ros2_ws/src
       ```
 * **Output**
     ``` 
-    [INFO] [listener]: Listen: 124
-    [INFO] [listener]: Listen: 125
-    [INFO] [listener]: Listen: 126
-    [INFO] [listener]: Listen: 127  
+    [INFO] [1672492464.144192300] [listener]: Listen: 124
+    [INFO] [1672492464.644149500] [listener]: Listen: 125
+    [INFO] [1672492465.144123500] [listener]: Listen: 126
+    [INFO] [1672492465.644195600] [listener]: Listen: 127
+    [INFO] [1672492466.144156100] [listener]: Listen: 128
     ...
      ```
 
