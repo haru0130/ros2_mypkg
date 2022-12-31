@@ -34,8 +34,6 @@ $ mkdir -p ~/ros2_ws/src
 *  **Run Script**
      ``` 
         $ ros2 run mypkg talker
-  
-  
       ```
 * **Output**
    ``` 
