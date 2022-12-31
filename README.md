@@ -1,44 +1,66 @@
 # **This is a repository for university class assignments.**
 
+[![test](https://github.com/haru0130/ros2_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/haru0130/ros2_mypkg/actions/workflows/test.yml)
 
 
 ## **Install**
+1. Create a new directory for your ROS2 workspace and move to it.
+ ```
+$ mkdir -p ~/ros2_ws/src
+ ```
+ 2. Clone this repository into the src directory.
   ``` 
-
+  $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
+  $ cd ros2_mypkg   
   ```
+ 3. Build the package.
+  ``` 
+  $ colcon build
+  ``` 
+ 4. Source the setup file.
+  ```
+  $ source install/setup.bash
+  ```
+  
 
-## **Comannds**
+## **Commands**
 
 
-
+### **Talker**
 * **Function**
   
- 
+  Talker counts up numbers and sends them to the listener.
 
 *  **Run Script**
      ``` 
+        $ ros2 run mypkg talker
   
   
       ```
 * **Output**
    ``` 
-   
+   Nothing
     ```
-### **Product**
+### **Listener**
 * **Function**
+    
+    Listener receives numbers from the talker and displays them.
 
 
 
 
 *  **Run Script**
      ``` 
-    
-    
+        $ ros2 run mypkg listener
       ```
 * **Output**
     ``` 
-      
-      
+    [INFO] [listener]: Listen: 124
+    [INFO] [listener]: Listen: 125
+    [INFO] [listener]: Listen: 126
+    [INFO] [listener]: Listen: 127  
+    ...
+
     ```
 
 
@@ -58,6 +80,7 @@
 ## Test environment
 
  * Ubuntu 22.04 LTS
+ * ROS2 Humble
 
 ## License
 
