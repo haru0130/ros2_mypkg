@@ -69,13 +69,7 @@ $ mkdir -p ~/ros2_ws/src
 
 
 
-## Required software
 
-
-
- * Python 
-   
-   * Verified on Python 3.7 ~ 3.10
 
 ## Test environment
 
