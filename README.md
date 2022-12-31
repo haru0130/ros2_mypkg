@@ -30,7 +30,7 @@ $ cd ~/ros2_ws/src
 ### **Talker**
 * **Function**
   
-  Talker counts up the numbers and sends them to the listener with the topic "countup".
+  Node "Talker" counts up the numbers and sends them to the listener with the topic "countup".
 
 *  **Run Script**
 
@@ -46,7 +46,7 @@ $ cd ~/ros2_ws/src
 ### **Listener**
 * **Function**
     
-     The listener receives the data sent by the talker with the topic "countup" and displays it on the terminal.
+     Node "listener" receives the data sent by the talker with the topic "countup" and displays it on the terminal.
 
 *  **Run Script**
 
