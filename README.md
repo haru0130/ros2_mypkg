@@ -25,7 +25,6 @@ This is a repository for a university class assignment. This repository contains
     ```
     $ mkdir -p ~/ros2_ws/src
     $ cd ~/ros2_ws
-    $ colcon build
     ```
 * Source the workspace.
 
