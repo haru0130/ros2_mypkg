@@ -17,7 +17,7 @@ This is a repository for a university class assignment. This repository contains
 
     [ROS2 Installation Guide][def]
 
-[def]: https://docs.ros.org/en/foxy/Installation.html
+[def]: https://docs.ros.org/en/humble/Installation.html
 
 ### **Install this package**
 * Create a workspace.
