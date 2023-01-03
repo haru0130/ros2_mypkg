@@ -1,14 +1,64 @@
-# **This is a repository for university class assignments.**
+# **ROS2 Package for University Class Assignments**
+
+
 
 [![test](https://github.com/haru0130/ros2_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/haru0130/ros2_mypkg/actions/workflows/test.yml)
 
 
+## **Overview**
+
+This is a repository for a university class assignment. This repository contains a ROS2 package that counts up numbers and sends them from a talker to a listener on the topic `"countup"`.
 ## **Install**
-  Clone this repository to your workspace.
-   ``` 
-   $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
-   $ cd ros2_mypkg   
-   ```
+
+### **Install ROS2**
+   #### **If you have not installed ROS2, please install it first.**
+
+* Install ROS2 Humble from the official website.
+
+    [ROS2 Installation Guide][def]
+
+[def]: https://docs.ros.org/en/foxy/Installation.html
+
+### **Install this package**
+* Create a workspace.
+
+    ```
+    $ mkdir -p ~/ros2_ws/src
+    $ cd ~/ros2_ws
+    $ colcon build
+    ```
+* Source the workspace.
+
+    ```
+    $ source ~/ros2_ws/install/setup.bash
+    ```
+
+* Clone this package to your workspace.
+
+    ``` 
+    $ cd ~/ros2_ws/src
+    $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
+    ```
+* Build this package.
+
+    ```
+    $ cd ~/ros2_ws
+    $ colcon build
+    ```
+* Install this package.
+
+
+    ```
+    $ source ~/ros2_ws/install/setup.bash
+    ```
+
+
+
+
+
+
+
+  
 
  
   
@@ -18,7 +68,7 @@
 ### **Talker**
 * **Function**
   
-  Node "Talker" counts up the numbers and sends them to the listener with the topic "countup".
+  Node `"Talker"` counts up the numbers and sends them to the `"listener"` with the topic `"countup"`.
 
 *  **Run Script**
 
@@ -34,7 +84,7 @@
 ### **Listener**
 * **Function**
     
-     Node "listener" receives the data sent by the talker with the topic "countup" and displays it on the terminal.
+     Node `"listener"` receives the data sent by the `"talker"` with the topic `"countup"` and displays it on the terminal.
 
 *  **Run Script**
 
