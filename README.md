@@ -47,7 +47,7 @@
 
     ``` 
     $ cd ~/ros2_ws/src
-    $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
+    $ git clone -b master https://github.com/haru0130/ros2_package_assignment.git
     ```
 1. Install dependencies.
 
