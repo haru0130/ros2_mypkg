@@ -15,13 +15,13 @@ This is a repository for a university class assignment. This repository contains
 
 
 
-* Install ROS2 Humble from the official website.
+1. Install ROS2 Humble from the official website.
 
     [ROS2 Installation Guide][def3]
 
-[def3]: https://docs.ros.org/en/humble/Installation.html
+    [def3]: https://docs.ros.org/en/humble/Installation.html
 
-* install colcon.
+1. Install colcon.
 
     [colcon Installation Guide][def2]
 
@@ -32,55 +32,40 @@ This is a repository for a university class assignment. This repository contains
 
 #### **Please follow the steps below to install this package.**
 
-* Set up your environment.
+1. Set up your environment.
 
     ```
     $ source /opt/ros/humble/setup.bash
     ```
 
-* Create a workspace.
+1. Create a workspace.
 
     ```
     $ mkdir -p ~/ros2_ws/src
     ```
-
-
-* Clone this package.
+1. Clone this package.
 
     ``` 
     $ cd ~/ros2_ws/src
     $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
     ```
-* Install dependencies.
+1. Install dependencies.
 
     ```
     $ rosdep install -i --from-path . --ignore-src
     ```
 
-* Build this package.
+1. Build this package.
 
     ```
     $ cd ~/ros2_ws
     $ colcon build
     ```
-* Install this package.
-
+1. Install this package.
 
     ```
     $ source ~/ros2_ws/install/setup.bash
     ```
-
-
-
-
-
-
-
-  
-
- 
-  
-
 ## **Nodes**
 
 ### **Talker**
