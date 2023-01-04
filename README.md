@@ -123,7 +123,21 @@ This is a repository for a university class assignment. This repository contains
     ...
     ```
 
+## **Develop**
 
+### **If you want to develop this package, please follow the steps below.**
+
+1. Modify the source code or add a new source code.
+
+1. Build & Source 
+
+    Type the following command in a terminal.
+     ``` 
+    $ cd ~/ros2_ws
+    $ colcon build
+    $ source ~/.bashrc
+    ```
+    
 
 
 
