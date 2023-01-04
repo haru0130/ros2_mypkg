@@ -11,7 +11,9 @@ This is a repository for a university class assignment. This repository contains
 ## **Install**
 
 ### **Install ROS2**
-   #### **If you have not installed ROS2, please install it first.**
+   #### **If you have not installed ROS2, please follow the steps below.**
+
+
 
 * Install ROS2 Humble from the official website.
 
@@ -19,25 +21,42 @@ This is a repository for a university class assignment. This repository contains
 
 [def]: https://docs.ros.org/en/humble/Installation.html
 
+* install colcon.
+
+    [colcon Installation Guide][def2]
+
+[def2]:https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
+    
+
 ### **Install this package**
+
+#### **Please follow the steps below to install this package.**
+
+* Set up your environment.
+
+    ```
+    $ source /opt/ros/humble/setup.bash
+    ```
+
 * Create a workspace.
 
     ```
     $ mkdir -p ~/ros2_ws/src
-    $ cd ~/ros2_ws
-    ```
-* Source the workspace.
-
-    ```
-    $ source ~/ros2_ws/install/setup.bash
     ```
 
-* Clone this package to your workspace.
+
+* Clone this package.
 
     ``` 
     $ cd ~/ros2_ws/src
     $ git clone -b master https://github.com/haru0130/ros2_mypkg.git
     ```
+* Install dependencies.
+
+    ```
+    $ rosdep install -i --from-path . --ignore-src
+    ```
+
 * Build this package.
 
     ```
@@ -101,9 +120,23 @@ This is a repository for a university class assignment. This repository contains
     ...
      ```
 
+### **Also, you can run both nodes at the same time.**
 
+* **Run Script**
 
-
+    Type the following command in a new terminal.
+     ``` 
+    $ ros2 launch mypkg talk_listen.launch.py
+    ```
+* **output**
+    ``` 
+    [listener-2] [INFO] [1672855124.022146000] [listenertest]: Listen: 9
+    [listener-2] [INFO] [1672855124.522275200] [listenertest]: Listen: 10
+    [listener-2] [INFO] [1672855125.022385900] [listenertest]: Listen: 11
+    [listener-2] [INFO] [1672855125.522228400] [listenertest]: Listen: 12
+    [listener-2] [INFO] [1672855126.022194000] [listenertest]: Listen: 13
+    ...
+    ```
 
 
 
