@@ -1,4 +1,4 @@
-*.voscode
+.voscode/
 build/
 install/
 log/

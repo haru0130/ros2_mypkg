@@ -138,9 +138,6 @@ This is a repository for a university class assignment. This repository contains
     $ source ~/.bashrc
     ```
     
-
-
-
 ## **Test environment**
 
  * Ubuntu 22.04 LTS
