@@ -142,23 +142,23 @@ This is a repository for a university class assignment. This repository contains
 
 
 
-## Test environment
+## **Test environment**
 
  * Ubuntu 22.04 LTS
  * ROS2 Humble
 
-## License
+## **License**
 
 
 * This software package is licensed for redistribution and use under the terms of the 3-Clause BSD License.
 * This package uses code originate from Robot System class 2022 (© 2022 Ryuichi Ueda).
 * The code in this package is based on the following slide（CC-BY-SA 4.0 by Ryuichi Ueda）, which is my own work with his permission．
     * [ryuichiueda/my_slides robosys_2022][def]
-* © 2022 Haruki Matsukawa
+* © 2023 Haruki Matsukawa
 
 [def]: https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
 
-## Reference
+## **Reference**
 
 * [ROS2 Installation Guide][def3]
 * [colcon Installation Guide][def2]
