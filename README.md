@@ -17,9 +17,9 @@ This is a repository for a university class assignment. This repository contains
 
 * Install ROS2 Humble from the official website.
 
-    [ROS2 Installation Guide][def]
+    [ROS2 Installation Guide][def3]
 
-[def]: https://docs.ros.org/en/humble/Installation.html
+[def3]: https://docs.ros.org/en/humble/Installation.html
 
 * install colcon.
 
@@ -120,11 +120,11 @@ This is a repository for a university class assignment. This repository contains
     ...
      ```
 
-### **Also, you can run both nodes at the same time.**
+## **Also, you can run both nodes at the same time.**
 
 * **Run Script**
 
-    Type the following command in a new terminal.
+    Type the following command in a terminal.
      ``` 
     $ ros2 launch mypkg talk_listen.launch.py
     ```
@@ -157,3 +157,12 @@ This is a repository for a university class assignment. This repository contains
 * © 2022 Haruki Matsukawa
 
 [def]: https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
+
+## Reference
+
+* [ROS2 Installation Guide][def3]
+* [colcon Installation Guide][def2]
+* [ryuichiueda/my_slides robosys_2022][def]
+* [RT Corporation Software Tutorials][def4]
+
+[def4]:https://rt-net.github.io/tutorials/raspimouse/ros/package-install.html
