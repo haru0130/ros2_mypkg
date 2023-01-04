@@ -7,10 +7,10 @@
 
 ## **Overview**
 
-This is a repository for a university class assignment. This repository contains a ROS2 package that counts up numbers and sends them from a talker to a listener on the topic `"countup"`.
-## **Install**
-
-### **Install ROS2**
+   This is a repository for a university class assignment. This  repository contains a ROS2 package that counts up numbers and sends them from a talker to a listener on the topic `"countup"`.
+## **Preparation**
+#### **Make sure you have installed ubunt22.04, ROS2 Humble and Python3.**
+ 
    #### **If you have not installed ROS2, please follow the steps below.**
 
 
@@ -27,7 +27,7 @@ This is a repository for a university class assignment. This repository contains
 
 [def2]:https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
     
-
+## **Install**
 ### **Install this package**
 
 #### **Please follow the steps below to install this package.**
@@ -142,6 +142,7 @@ This is a repository for a university class assignment. This repository contains
 
  * Ubuntu 22.04 LTS
  * ROS2 Humble
+ * Python 3.10.6
 
 ## **License**
 
